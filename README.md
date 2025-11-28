@@ -1,6 +1,2 @@
 # Solar-Tracking-System
-Solar Tracking System is designed to enhance solar panel efficiency by continuously aligning with the sun’s position.
-It uses LDR sensors to detect sunlight intensity and servo motors to adjust the panel’s orientation in real time.
-The L298N motor driver enables precise and reliable motor control for smooth movement.
-The system is battery-powered, ensuring autonomous and energy-efficient operation.
-This project demonstrates practical implementation of automation, sensor integration, and renewable energy optimization.
+This project creates a dual-axis solar tracking system using Arduino UNO to automatically rotate a solar panel toward the strongest light source. It uses two LDR sensors for detecting sunlight intensity, a servo motor for panel movement, and a small solar panel for demonstration. Supporting components include 10kΩ resistors, jumper wires, a breadboard, and a mounting frame. The Arduino compares LDR values and adjusts the servo to keep the panel aligned with sunlight. This improves energy efficiency and can be expanded to a four-axis system for more precise tracking. The setup is simple, low-cost, and ideal for student or DIY renewable-energy projects.
